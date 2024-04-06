@@ -10,6 +10,7 @@
   label {
     display: block;
     margin-bottom: 5px;
+    font-family: cursive;
   }
   
   input {
@@ -31,13 +32,14 @@
     cursor: pointer;
   }
   
-  .left-button {
-    background-color: #3498db;
+  .reset {
+    background-color: #000000;
     color: #fff;
   }
   
-  .right-button {
-    background-color: #2ecc71;
+  .add {
+    background-color: 
+    #000000;
     color: #fff;
   }
   .profile img {
@@ -45,6 +47,12 @@
     height: 100px;
     border-radius: 50%;
     margin-right: 10px;
-    max-width: 400px;
+   
     
+    
+  }
+  h5{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
   }
