@@ -3,18 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Food Category</title>
+  <title>Dashboard</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="category">
-    <div class="category-item">
-      <img src="food_logo.png" alt="Food Logo">
-      <div class="info">
-        <span class="name">Food</span>
-        <span class="expense">$100</span>
+  <div class="dashboard">
+    <h1 class="title">Diyar Expenses</h1>
+    
+      
+
+    
+    <div class="balance">
+        <div class="profile">
+            <a href="">
+            <img src="New folder/profile.png" alt="Profile Picture" class="profile-picture">
+        </a>
+          </div>
+        <h2>$ 17,800</h2>
+        
       </div>
+    <div class="expenses">
+      <h3>All Expenses</h3>
+      <div class="categories">
+        <div class="category">
+          <div class="category-details">
+            <span class="icon coffee"></span>
+            <span class="name">Coffee</span>
+          </div>
+          <span class="amount">$30</span>
+        </div>
+        <div class="category">
+          <div class="category-details">
+            <span class="icon gift"></span>
+            <span class="name">Gift for Aunty's Campaign</span>
+          </div>
+          <span class="amount">$1,500</span>
+        </div>
+        <div class="category">
+          <div class="category-details">
+            <span class="icon subscription"></span>
+            <span class="name">Netflix Subscription</span>
+          </div>
+          <span class="amount">$100</span>
+        </div>
+        <div class="category">
+          <div class="category-details">
+            <span class="icon snacks"></span>
+            <span class="name">Tea &amp; Snacks</span>
+          </div>
+          <span class="amount">$35</span>
+        </div>
+        <div class="category">
+          <div class="category-details">
+            <span class="icon subscription"></span>
+            <span class="name">Fitness Subscription</span>
+          </div>
+          <span class="amount">$100</span>
+        </div>
+      </div>
+      <a href="addcategory.html">
+      <button class="add-button">Add</button>
+    </a>
     </div>
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
